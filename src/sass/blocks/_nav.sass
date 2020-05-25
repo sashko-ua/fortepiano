@@ -12,17 +12,19 @@
             justify-content: flex-end
         a, .nav-link
             color: #ffffff
+            &:active
+                color: $yellow
             &:hover, 
-                color: orange
+                color: $yellow
                 &::before
                     position: absolute
                     top: 0
                     content: ''
                     width: 50px
-                    border-top: 2px solid orange
+                    border-top: 2px solid $yellow
         .dropdown-menu
             background-color: rgba(0, 0, 0, .8)
         
         .active
             .nav-link
-                color: orange
+                color: $yellow
