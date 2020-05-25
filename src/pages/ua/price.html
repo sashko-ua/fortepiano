@@ -14,7 +14,11 @@
 			<div class="col-md-4">
 				<a class="navbar-brand" href="#">LOGO</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</span>
 				</button>
 			</div>
 			<div class="col-md-8">
@@ -62,13 +66,13 @@
 				Ціни
 			</div>
             <div class="row">
-				<div class="col-4">
+				<div class="col-md-4">
 					<div class="list-group" id="list-tab" role="tablist">
 						<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Індивідуальні заняття</a>
 						<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Групові заняття</a>
 					</div>
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<div class="tab-content" id="nav-tabContent">
 						<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 							<table class="table">
@@ -147,21 +151,28 @@
 			<div class="title">
 				Що обрати?
 			</div>
-			<div class="row">
-				<div class="choice__boxes">
-					<div class="card" style="width: 18rem;">
-						<img src="../../img/choice/solo.png" class="card-img-top" alt="...">
-						<div class="card-body">
-						  <p class="card-text"><h2>Індивідуальні заняття</h2>
-							Заняття, на яких вся енергія викладача спрямована лише на Вас! Це допоможе в більш швидкому розвитку та досягненні результатів.
-						</p>
+			<div class="choice__boxes">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card card_bg-black">
+							<img src="../../img/choice/solo.png" class="card-img-top" alt="solo">
+							<div class="card-body">
+									<p class="card-text">
+									<h2>Індивідуальні заняття</h2>
+									Заняття, на яких вся енергія викладача спрямована лише на Вас! Це допоможе в більш швидкому розвитку та досягненні результатів.
+								</p>
+							</div>
 						</div>
 					</div>
-					<div class="card" style="width: 18rem;">
-						<img src="../../img/choice/group.jpeg" class="card-img-top" alt="...">
-						<div class="card-body">
-						  <p class="card-text"><h2>Групові заняття</h2>
-						Конкуренція! Ось ще один двигун розвитку. Можливо трішки дорстокий, але дієвий для тих, хто хоче бути віртуозом.</p>
+					<div class="col-md-6">
+						<div class="card card_bg-yellow">
+							<img src="../../img/choice/group.jpeg" class="card-img-top" alt="group">
+							<div class="card-body">
+									<p class="card-text">
+									<h2>Групові заняття</h2>
+									Конкуренція! Ось ще один двигун розвитку. Можливо трішки дорстокий, але дієвий для тих, хто хоче бути віртуозом.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -173,12 +184,12 @@
     <footer class="footer">
         <div class="container">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-2 col-sm-2 col-md-2">
 					<div class="footer__logo">
 						LOGO
 					</div>
 				</div>
-				<div class="col-md-6 offset-4">
+				<div class="col-10 offset-0 col-sm-6 offset-sm-4 col-md-6 offset-md-4">
 					<div class="footer__policy">
 						<div><a href="#">Політика конфеденційності</a></div>
 						<div><a href="#">Угода користувача</a></div>
